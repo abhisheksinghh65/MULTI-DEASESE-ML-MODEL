@@ -10,6 +10,46 @@ Welcome to the **Health Assistant** project! This web application predicts the l
 - Simple and intuitive user interface built with Streamlit.
 - Real-time predictions based on user inputs.
 
+
+## 🍬 Diabetes Prediction Model
+This project is part of a larger Multiple Disease Prediction System, focusing on predicting diabetes using machine learning techniques.
+
+### 🧠 Model
+- **Algorithm**: Support Vector Machine (SVM) with a linear kernel
+- **Train-Test Split**: 80% training, 20% testing
+### 📈 Performance
+- **Training Accuracy**: 78.34%
+- **Testing Accuracy**: 77.27%
+
+## Heart Disease prediction Model
+### 🧠 Model
+- **Algorithm**: Logistic Regression
+- **Train-Test Split**: 80% training, 20% testing
+### 📈 Performance
+- **Training Accuracy**: 85.12%
+- **Testing Accuracy**: 81.96%
+
+## Parkinsons Disease prediction Model
+### 🧠 Model
+- **Algorithm**: Support Vector Machine (SVM) with a linear kernel
+- **Train-Test Split**: 80% training, 20% testing
+### 📈 Performance
+- **Training Accuracy**: 87.17%
+- **Testing Accuracy**: 87.17%
+
+## 📊 Usage
+Open the application in your browser after running the Streamlit command.
+Use the sidebar to navigate between different disease prediction pages:
+Diabetes Prediction
+Heart Disease Prediction
+Parkinson's Disease Prediction
+Enter the required details and click on the Test Result button to see the prediction.
+
+## 🛠 Technologies Used
+Python 🐍
+Streamlit 🎈
+Scikit-learn 📊
+
 ## 🗂 Project Structure
 
 ```bash
@@ -28,17 +68,4 @@ ML_MODEL/
 └── requirements.txt
 |__ diabetes.csv
 |__ heart.csv
-|__ parkinsons.csv '''
-
-## 📊 Usage
-Open the application in your browser after running the Streamlit command.
-Use the sidebar to navigate between different disease prediction pages:
-Diabetes Prediction
-Heart Disease Prediction
-Parkinson's Disease Prediction
-Enter the required details and click on the Test Result button to see the prediction.
-
-## 🛠 Technologies Used
-Python 🐍
-Streamlit 🎈
-Scikit-learn 📊
+|__ parkinsons.csv
