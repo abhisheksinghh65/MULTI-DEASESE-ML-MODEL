@@ -28,7 +28,7 @@ ML_MODEL/
 └── requirements.txt
 |__ diabetes.csv
 |__ heart.csv
-|__ parkinsons.csv
+|__ parkinsons.csv '''
 
 ## 📊 Usage
 Open the application in your browser after running the Streamlit command.
